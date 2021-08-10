@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+
+		}
+
+		body{
+			font-family:sans-serif ;
+
+		}
+
+		div {
+			margin-bottom: 40px;
+			padding: 15px;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+		}
+
+		img {
+			max-width: 300px;
+		}
+
+		
+		.navbar {
+			color: white;
+			display: flex;
+			justify-self: space-around;
+			align-items: center;
+			font-size: 15px;
+
+		}
+		.navlist { list-style-type:  none;
+
+		 }
+		 .nav_list .list-item {
+		 	display: inline-block;
+		 	padding: 30px 20px;
+
+		 }
+		 .navbar a {
+		 	color:  white;
+		 	text-decoration: none;
+
+		 }
+
+		 .navbar a:hover{
+		 	color: white;
+		 }
+
+		 .primary-icon{
+		 	height: 20px;
+		 	width: 300px;
+		 }
+		 .menu-line {
+		 	widows: 20px;
+		 	height: 3px;
+		 	background-image: url();
+		 }
+
+		 
+
+		.menu li:hover .sub-menu {
+			 z-index: 1;
+			 opacity: 1;
+			}
+
+		.nav .sub-menu{
+		   display: none;
+		   position: absolute;
+		   top: 0;
+		   left: 100%;
+		   width: 200px;
+		   background-color: #eee;
+		   padding: 5px 20px;
+		}
+ 
+		 .nav li:hover>.sub-menu{
+		   display: block;
+		 }
+ 
+		 .nav>li>.sub-menu{
+		   top: 40px;
+		   left: 0;
+		 }
+
+		.arrow {
+	   	 font-size:11px;
+	   	 line-height:0%;
+		} 
+		nav li ul{
+		    display: none;
+		    min-width: 350px;
+		    position: absolute;
+		}
+		nav li>ul li:first-child a{
+		    border-bottom-left-radius: 0px;
+		    border-top-left-radius: 0px;
+		}
+		nav li>ul li:last-child {
+		    border-bottom-left-radius: 5px;
+		    border-bottom-right-radius: 5px;
+		}
+		nav li>ul li:last-child a{
+		    border-bottom-left-radius: 5px;
+		    border-bottom-right-radius: 5px;
+		}
+	
+		nav  li:hover > ul{
+		    display:  block;
+		}
+
+		nav > ul li > ul li >ul{
+		    margin-left: 352px;
+		    margin-top: -50px;
+		}
+
+		aside {
+		  width: 30%;
+		  padding-left: 15px;
+		  margin-left: 15px;
+		  float: right;
+		  font-style: italic;
+		  background-color: lightgray;
+		}
+
+		div.gallery {
+		  margin: 5px;
+		  border: 1px solid #ccc;
+		  float: left;
+		  width: 180px;
+		}
+
+		div.gallery:hover {
+		  border: 1px solid #777;
+		}
+
+		div.gallery img {
+		  width: 100%;
+		  height: auto;
+		}
+
+		div.desc {
+		  padding: 15px;
+		  text-align: center;
+		}
+
+		footer{
+			height: 100%;
+			width: 100%;
+			border: 0;
+		}
+
+		#linei ul{ 
+			text-align: center;
+
+		}
+
+		#linei ul li{
+			display: inline-table;
+			text-align: center;
+			height: 40px;
+			width: 110px;
+			padding: 20px;
+
+		}
+
+		#line2 ul{
+			text-align: center;
+
+		}
+
+		#line2 ul li{
+			display: inline-table;
+			text-emphasis: center;
+			height: 40px;
+			width: 110px;
+			padding: 90px;
+			
+
+		}
+
+		#line3 ul{
+			text-align: center;
+
+		}
+
+		#line3 ul li{
+			display: inline-table;
+			text-emphasis: center;
+			height: 40px;
+			width: 110px;
+			padding: 60px;
+			
+
+		}
+
+		#catalog {
+			height: 120px;
+			width: 135px;
+		}
+		#darken{
+			filter: brightness(45%);
+		}
+	
